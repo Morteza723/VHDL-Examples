@@ -8,7 +8,7 @@ GENERIC (N: INTEGER:=8);
  Rin : in STD_LOGIC;
  R : in STD_LOGIC_VECTOR (N-1 downto 0);
  Q : out STD_LOGIC_VECTOR (N-1 downto 0));
-end register_n;
+end register_N;
 
 architecture Behavioral of register_n is
 
